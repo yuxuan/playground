@@ -2,6 +2,14 @@ import React, { Component } from 'react';
 import {Layer, Circle, Stage, Line} from 'react-konva';
 import Konva from 'konva';
 
+const Pointer = (props) => {
+    return (
+        <Line x={props.x} y={props.y} 
+                points={[ 0, 0, -125 * Math.sin(props.angle), -125 * Math.cos(props.angle),]}
+                stroke={ props.color || 'red' }/>
+    );
+}
+
 class ClockFace extends React.Component {
     stage=null;
     constructor(...args) {
@@ -26,8 +34,6 @@ class ClockFace extends React.Component {
         });
     }
     componentDidMount() {
-        // log Konva.Circle instance
-        console.log(this.refs.stage);
         const layer = this.refs.layer;
         const circle = this.refs.circle;
         this.setState((prevState)=>{
@@ -46,9 +52,9 @@ class ClockFace extends React.Component {
                         fill={this.state.circle.color}
                         onClick={this.handleClick}
                     />
-                    <Line ref='line' x={this.state.line.x} y={this.state.line.y} 
-                        points={[ 0, 0, -125 * Math.sin(this.props.angle), -125 * Math.cos(this.props.angle),]}
-                        stroke='red'/>
+                    <Pointer x={this.state.line.x} y={this.state.line.y} angle={this.props.hourAngle} color='blue'/>
+                    <Pointer x={this.state.line.x} y={this.state.line.y} angle={this.props.minAngle} color='yellow'/>
+                    <Pointer x={this.state.line.x} y={this.state.line.y} angle={this.props.secAngle} color='red' />
                 </Layer>
             </Stage>
                 
@@ -57,7 +63,9 @@ class ClockFace extends React.Component {
 }
 
 class Clock extends Component {
-    anglePerSec = -Math.PI/30;
+    secAnglePerSec= -2*Math.PI/60;
+    minAnglePerSec = -2*Math.PI/(60*60);
+    hourAnglePerSec = -2*Math.PI/(3600*60*12);
     constructor(props) {
         super(props);
         this.state = {
@@ -69,21 +77,34 @@ class Clock extends Component {
     getTime() {
         return new Date().getHours() + ':' + new Date().getMinutes() + ':' + new Date().getSeconds();
     }
-    getSecond() {
+
+    getSeconds() {
         return new Date().getSeconds();
+    }
+
+    getMinutes() {
+        return new Date().getMinutes();
+    }
+
+    getHours() {
+        return new Date().getHours();
+    }
+
+    getPointersAngle() {
+        let secAngle = this.getSeconds() * this.secAnglePerSec;
+        let minAngle = (this.getMinutes() * 60 + this.getSeconds()) * this.minAnglePerSec;
+        let hourAngle = (this.getHours() * 60 + this.getMinutes() * 60 + this.getSeconds()) * this.hourAnglePerSec;
+        return { secAngle, minAngle, hourAngle, }
     }
     
     componentWillMount() {
-        this.setState({
-            time: this.getTime(),
-            angle: this.getSecond() * this.anglePerSec
-        });
+        this.setState({ time: this.getTime(), ...this.getPointersAngle() });
 
     }
     componentDidMount() {
         this.interval = setInterval(() => {
             this.setState((prevState) => {
-                let state = {...{ time:this.getTime(), angle: this.getSecond() * this.anglePerSec } }
+                let state = {...{ time:this.getTime(), ...this.getPointersAngle() } }
                 return state;
             })
         }, 1000);
@@ -97,7 +118,7 @@ class Clock extends Component {
         return (
         <div>
             <div>{this.state.time}</div>
-            <ClockFace angle={this.state.angle}/>
+            <ClockFace secAngle={this.state.secAngle} minAngle={this.state.minAngle} hourAngle={this.state.hourAngle}/>
         </div>
         )
     }
