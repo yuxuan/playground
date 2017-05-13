@@ -35,7 +35,6 @@ class ClockFace extends React.Component {
     }
     componentDidMount() {
         const layer = this.refs.layer;
-        const circle = this.refs.circle;
         this.setState((prevState)=>{
             Object.assign(prevState.circle, { x: layer.getWidth()/2, y: layer.getHeight()/2});
             Object.assign(prevState.line, { x: layer.getWidth()/2, y: layer.getHeight()/2});
@@ -65,7 +64,7 @@ class ClockFace extends React.Component {
 class Clock extends Component {
     secAnglePerSec= -2*Math.PI/60;
     minAnglePerSec = -2*Math.PI/(60*60);
-    hourAnglePerSec = -2*Math.PI/(3600*60*12);
+    hourAnglePerSec = -2*Math.PI/(3600*12);
     constructor(props) {
         super(props);
         this.state = {
@@ -93,7 +92,7 @@ class Clock extends Component {
     getPointersAngle() {
         let secAngle = this.getSeconds() * this.secAnglePerSec;
         let minAngle = (this.getMinutes() * 60 + this.getSeconds()) * this.minAnglePerSec;
-        let hourAngle = (this.getHours() * 60 + this.getMinutes() * 60 + this.getSeconds()) * this.hourAnglePerSec;
+        let hourAngle = ((this.getHours() - 12) * 3600 + this.getMinutes() * 60 + this.getSeconds()) * this.hourAnglePerSec;
         return { secAngle, minAngle, hourAngle, }
     }
     
