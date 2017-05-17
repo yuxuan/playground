@@ -3,7 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
     "konva": "^1.6.1",
+    "pg": "^6.2.2",
+    "pg-promise": "^5.7.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-konva": "^1.1.3",
