@@ -3,20 +3,16 @@ import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import Clock from './Clock'
 import Counter from './Counter'
 import Todo from './todo/app'
+import VanillaJS from './vanillaJS'
+import SetState from './SetState'
+import Github from './github/main'
+import Css from './Css'
 import './App.css';
 
 const Home = () => {
   return (
   <div>
     <p>This is Home</p>
-  </div>
-  );
-}
-
-const About = () => {
-  return (
-  <div>
-    <p>This is About</p>
   </div>
   );
 }
@@ -28,7 +24,10 @@ const Nav = () => {
       <Link to='/clock'>Clock</Link>
       <Link to='/counter'>Counter</Link>
       <Link to='/todo'>Todo</Link>
-      <Link to='/about'>About</Link>
+      <Link to='/vanillajs'>VanillaJS</Link>
+      <Link to='/setState'>SetState</Link>
+      <Link to='/github'>Github</Link>
+      <Link to='/css'>LearnCss</Link>
     </div>
   )
 }
@@ -44,7 +43,10 @@ class App extends Component {
             <Route path='/clock' component={ Clock }></Route>
             <Route path='/counter' component={ Counter }></Route>
             <Route path='/todo' component={ Todo }></Route>
-            <Route path='/about' component={ About }></Route>
+            <Route path='/vanillajs' component={ VanillaJS }></Route>
+            <Route path='/setstate' component={ SetState }></Route>
+            <Route path='/github' component={ Github }></Route>
+            <Route path='/css' component={ Css }></Route>
           </Switch>
         </div>
       </BrowserRouter>
