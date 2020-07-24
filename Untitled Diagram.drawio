@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-24T03:33:17.791Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="rwbAcVWnYbvhmxlJ6M9d" version="13.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-24T03:34:26.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="zAj-E5Im-4yFlpSqBDj3" version="13.5.1" type="github">
   <diagram name="Page-1" id="03018318-947c-dd8e-b7a3-06fadd420f32">
     <mxGraphModel dx="970" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
           <mxGeometry x="640" y="530" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Kj5fuyBc3AmVb83bUTMa-20" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="690" width="700" height="400" as="geometry" />
+          <mxGeometry x="130" y="690" width="710" height="240" as="geometry" />
         </mxCell>
         <mxCell id="Kj5fuyBc3AmVb83bUTMa-22" value="&lt;font style=&quot;font-size: 14px&quot;&gt;API&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="700" width="110" height="44" as="geometry" />
@@ -58,17 +58,14 @@
         <mxCell id="Kj5fuyBc3AmVb83bUTMa-24" value="&lt;font style=&quot;font-size: 14px&quot;&gt;preview&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="760" width="110" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="Kj5fuyBc3AmVb83bUTMa-25" value="&lt;font style=&quot;font-size: 14px&quot;&gt;packageName&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="840" width="110" height="44" as="geometry" />
-        </mxCell>
         <mxCell id="Kj5fuyBc3AmVb83bUTMa-26" value="&lt;font style=&quot;font-size: 14px&quot;&gt;@baidu/ee-icon-react@0.1.2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="840" width="270" height="44" as="geometry" />
+          <mxGeometry x="250" y="760" width="270" height="44" as="geometry" />
         </mxCell>
         <mxCell id="Kj5fuyBc3AmVb83bUTMa-29" value="&lt;font style=&quot;font-size: 14px&quot;&gt;@baidu/ee-icon-vue@0.1.2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="868" width="270" height="44" as="geometry" />
+          <mxGeometry x="250" y="788" width="270" height="44" as="geometry" />
         </mxCell>
         <mxCell id="Kj5fuyBc3AmVb83bUTMa-30" value="确认发布" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="1000" width="150" height="30" as="geometry" />
+          <mxGeometry x="650" y="870" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Kj5fuyBc3AmVb83bUTMa-31" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="355" width="10" height="10" as="geometry" />
