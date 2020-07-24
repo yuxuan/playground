@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-24T03:31:55.649Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="FLq3xSHCvh4BCcEAeBrO" version="13.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-24T03:32:28.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="IZFGW92PyaCtxBiII-GI" version="13.5.1" type="github">
   <diagram name="Page-1" id="03018318-947c-dd8e-b7a3-06fadd420f32">
     <mxGraphModel dx="970" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
           <mxGeometry x="120" y="1170" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Kj5fuyBc3AmVb83bUTMa-40" value="&lt;span style=&quot;font-size: 14px&quot;&gt;一期通过在publish server的bot，保存好authToken&lt;br&gt;接了jfrog之后，可以通过cookie拿uuap用户信息，jfrog打通uuap发布&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="122.5" y="1320" width="557.5" height="100" as="geometry" />
+          <mxGeometry x="126.25" y="1290" width="557.5" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
