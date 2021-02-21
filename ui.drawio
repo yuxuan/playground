@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-21T04:20:33.829Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="u21Ic_RijrG0vdfr_E3B" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-21T04:20:49.535Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="p-4pWBFLwtLxN2GSaBKR" version="14.4.2" type="github">
   <diagram id="XPLFFR-Bo0P25hXXvaHo" name="Page-1">
     <mxGraphModel dx="788" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,13 +129,13 @@
           <mxGeometry x="106" y="1220" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-66" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="126" y="1540" width="527.5" height="50" as="geometry" />
+          <mxGeometry x="126" y="1540" width="544" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-67" value="Antd" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="266" y="1550" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-68" value="其它开源组件/&lt;br&gt;组件库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="426" y="1550" width="110" height="30" as="geometry" />
+          <mxGeometry x="410" y="1550" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-69" value="安装基础组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="167.5" y="810" width="92.5" height="20" as="geometry" />
