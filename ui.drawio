@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-02-21T04:16:52.604Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="_DlX0Lnl8BoYdITSylDM" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-21T04:19:41.419Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="yIfb1ZVjaAehxrSnTQA4" version="14.4.2" type="github">
   <diagram id="XPLFFR-Bo0P25hXXvaHo" name="Page-1">
     <mxGraphModel dx="788" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aSzT6GV53Bfr9ky1lihp-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="20" y="-120" width="1290" height="1290" as="geometry" />
+          <mxGeometry x="20" y="-120" width="1880" height="1880" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-2" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="170" y="410" width="540" height="50" as="geometry" />
@@ -123,40 +123,55 @@
           <mxGeometry x="155" y="970" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-59" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="150" y="490" width="570" height="400" as="geometry" />
+          <mxGeometry x="106" y="1220" width="570" height="400" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-61" value="业务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="490" width="70" height="20" as="geometry" />
+          <mxGeometry x="106" y="1220" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-66" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="170" y="810" width="527.5" height="50" as="geometry" />
+          <mxGeometry x="126" y="1540" width="527.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-67" value="Antd" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="310" y="820" width="110" height="30" as="geometry" />
+          <mxGeometry x="266" y="1550" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-68" value="其它开源组件/&lt;br&gt;组件库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="470" y="820" width="110" height="30" as="geometry" />
+          <mxGeometry x="426" y="1550" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-69" value="安装基础组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="167.5" y="810" width="92.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-70" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="167.5" y="660" width="452.5" height="120" as="geometry" />
+          <mxGeometry x="123.5" y="1390" width="536.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-71" value="安装 icloud主题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="165" y="670" width="105" height="20" as="geometry" />
+          <mxGeometry x="121" y="1400" width="105" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-74" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aSzT6GV53Bfr9ky1lihp-72" target="aSzT6GV53Bfr9ky1lihp-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-72" value="@osui/icloud-theme" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="349" y="730" width="136" height="35" as="geometry" />
+          <mxGeometry x="305" y="1460" width="136" height="35" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-73" value="@osui/icons-icloud" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="349" y="672.5" width="130" height="35" as="geometry" />
+          <mxGeometry x="305" y="1402.5" width="130" height="35" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-75" value="通过alias适配" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="495" y="680" width="95" height="20" as="geometry" />
+          <mxGeometry x="451" y="1410" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aSzT6GV53Bfr9ky1lihp-76" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="124.75" y="1320" width="535.25" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="aSzT6GV53Bfr9ky1lihp-78" value="按需安装组件、或整包引入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="123.5" y="1320" width="174" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aSzT6GV53Bfr9ky1lihp-79" value="@osui/button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1330" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="aSzT6GV53Bfr9ky1lihp-80" value="@osui/ui" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="517.25" y="1330" width="112.75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="aSzT6GV53Bfr9ky1lihp-81" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="451" y="1330" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
