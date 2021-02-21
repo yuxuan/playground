@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-02-21T04:20:49.535Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="p-4pWBFLwtLxN2GSaBKR" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-21T04:24:12.135Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="_RR9OAQDgivrnL7bDL_E" version="14.4.2" type="github">
   <diagram id="XPLFFR-Bo0P25hXXvaHo" name="Page-1">
     <mxGraphModel dx="788" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aSzT6GV53Bfr9ky1lihp-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="20" y="-120" width="1880" height="1880" as="geometry" />
+          <mxGeometry x="20" y="-150" width="1880" height="1880" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-2" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="170" y="410" width="540" height="50" as="geometry" />
@@ -123,10 +123,10 @@
           <mxGeometry x="155" y="970" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-59" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="106" y="1220" width="594" height="400" as="geometry" />
+          <mxGeometry x="106" y="1180" width="594" height="440" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-61" value="业务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="106" y="1220" width="70" height="20" as="geometry" />
+          <mxGeometry x="106" y="1180" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-66" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="126" y="1540" width="544" height="50" as="geometry" />
@@ -144,7 +144,7 @@
           <mxGeometry x="123.5" y="1390" width="536.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-71" value="安装 icloud主题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="121" y="1400" width="105" height="20" as="geometry" />
+          <mxGeometry x="120.5" y="1390" width="105" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-74" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aSzT6GV53Bfr9ky1lihp-72" target="aSzT6GV53Bfr9ky1lihp-73">
           <mxGeometry relative="1" as="geometry" />
@@ -162,7 +162,7 @@
           <mxGeometry x="124.75" y="1320" width="535.25" height="55" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-78" value="按需安装组件、或整包引入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="123.5" y="1320" width="174" height="20" as="geometry" />
+          <mxGeometry x="123.5" y="1320" width="166.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-79" value="@osui/button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="315" y="1330" width="130" height="35" as="geometry" />
@@ -178,6 +178,21 @@
         </mxCell>
         <mxCell id="aSzT6GV53Bfr9ky1lihp-83" value="安装基础开源库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="126" y="1540" width="94" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aSzT6GV53Bfr9ky1lihp-84" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="124.75" y="1240" width="535.25" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="aSzT6GV53Bfr9ky1lihp-85" value="业务封装组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="126.75" y="1240" width="93.25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aSzT6GV53Bfr9ky1lihp-86" value="@baidu/icloud-ui-xxx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1250" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="aSzT6GV53Bfr9ky1lihp-88" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="aSzT6GV53Bfr9ky1lihp-79" target="aSzT6GV53Bfr9ky1lihp-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="1390" as="sourcePoint" />
+            <mxPoint x="460" y="1340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
